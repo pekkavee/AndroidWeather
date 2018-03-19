@@ -62,7 +62,7 @@ public class Fetch extends AsyncTask<Void, Void, Void> {
             String desc="";
             for(int i=0;i<jsonarr_1.length();i++)
             {
-
+            //find description
                 JSONObject jsonobj_1 = (JSONObject)jsonarr_1.get(i);
                 desc=(String)jsonobj_1.get("description");
             }
