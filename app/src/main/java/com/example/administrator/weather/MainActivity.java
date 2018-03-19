@@ -44,8 +44,10 @@ public class MainActivity extends AppCompatActivity {
 
 
                 process.setKaupunki(city.getText().toString());
+                if(code.getText().toString().length()>0)
                 process.setCode(code.getText().toString());
 process.execute();
+
             }
         });
 

@@ -22,7 +22,7 @@ public class Fetch extends AsyncTask<Void, Void, Void> {
     String dataParsed="";
     String singleParsed="";
     String kaupunki;
-    String code;
+    String code="FI";
 
     public String getKaupunki() {
         return kaupunki;
