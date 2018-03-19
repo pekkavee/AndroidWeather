@@ -70,10 +70,18 @@ public class Fetch extends AsyncTask<Void, Void, Void> {
 
             try {
                 double temp = (double) technology.get("temp");
-                data=""+name+"\n"+temp+"\n"+desc;
+                if (temp > 0) {
+                    data = "" + name + "\n" +"+" +temp + "°C\n" + desc;
+                } else {
+                    data = "" + name + "\n" + temp + "°C\n" + desc;
+            }
             } catch (ClassCastException e){
                 int temp =(int)technology.get("temp");
-                data=""+name+"\n"+temp+"\n"+desc;
+                if(temp>0) {
+                    data = "" + name + "\n" + "+" + temp + "°C\n" + desc;
+                }else {
+                    data = "" + name + "\n" + temp + "°C\n" + desc;
+                }
 
             }
 
