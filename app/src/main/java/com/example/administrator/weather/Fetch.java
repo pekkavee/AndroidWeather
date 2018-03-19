@@ -24,6 +24,8 @@ public class Fetch extends AsyncTask<Void, Void, Void> {
     String kaupunki;
     String code="FI";
 
+
+
     public String getKaupunki() {
         return kaupunki;
     }
