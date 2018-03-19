@@ -25,7 +25,6 @@ public class Fetch extends AsyncTask<Void, Void, Void> {
     String code="FI";
 
 
-
     public String getKaupunki() {
         return kaupunki;
     }
@@ -63,8 +62,7 @@ public class Fetch extends AsyncTask<Void, Void, Void> {
             String desc="";
             for(int i=0;i<jsonarr_1.length();i++)
             {
-                //Store the JSON objects in an array
-                //Get the index of the JSON object and print the values as per the index
+
                 JSONObject jsonobj_1 = (JSONObject)jsonarr_1.get(i);
                 desc=(String)jsonobj_1.get("description");
             }
