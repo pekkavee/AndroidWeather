@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Weather</string>
+    <string name="selectcity">Select city</string>
+    <string-array name="city_names">
+        <item>Helsinki</item>
+        <item>Espoo</item>
+        <item>Lahti</item>
+        <item>Vantaa</item>
+        <item>Tallinn</item>
+        <item>Savonlinna</item>
+        <item>Stockholm</item>
+
+    </string-array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
